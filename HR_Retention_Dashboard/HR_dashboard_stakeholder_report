@@ -1,0 +1,71 @@
+
+Data - HR Data from the year 2000 to 2020.
+Data Cleaning & Analysis - MySQL Workbench
+Data Visualization - PowerBI
+Questions
+1.	What is the gender breakdown of employees in the company?
+2.	What is the race/ethnicity breakdown of employees in the company?
+3.	What is the age distribution of employees in the company?
+4.	How many employees work at headquarters versus remote locations?
+5.	What is the average length of employment for employees who have been terminated?
+6.	How does the gender distribution vary across departments and job titles?
+7.	What is the distribution of job titles across the company?
+8.	Which department has the highest turnover rate?
+9.	What is the distribution of employees across locations by state?
+10.	How has the company's employee count changed over time based on hire and term dates?
+11.	What is the tenure distribution for each department?
+
+Summary of Findings
+-	Data required cleaning, especially with the dates.
+o	Dates were recorded in different formats
+o	Dates were before birthdate and after the current date
+-	The headquarters most likely are in Ohio due to the dense population there at headquarters and remotely.
+-	Engineering loses the most employees (822), but the turnover rate is low (12.29%) because of the large number of employees (6686)
+o	The overall termination rate is below 20% across the company.
+-	There are 185 job titles across the company and many of them are multi-level going from Developer I to Developer IV. We may need to audit the job titles and see if we need all the different levels.
+-	By gender the highest count for a job title is Research Assistant II for both Male (374) and Female (359) and Business Analyst Second. For the Non-Conforming gender, we have less employees, but the highest count per job title is Business Analyst (24) and second Research Assistant II (21).
+-	Employees stay at the company for a considerable amount of time at 8 years and 5 months on average.
+-	
+Stakeholder Report
+
+HR Employee Retention Report
+Prepared for Stakeholders
+Based on Analysis of Termination and Tenure Trends
+Executive Summary
+This report summarizes key findings from an analysis of employee retention trends across departments, states, and demographic groups within the organization. Using data from 2000–2020, I identify areas of concern, highlight positive trends, and suggest opportunities for targeted HR initiatives to improve workforce stability.
+Key Findings
+1. Termination Rate by Department
+•	Highest Termination Rates:
+o	Auditing
+o	Legal
+•	Lower Termination Rates:
+o	Marketing
+o	Business Development
+Notably, there is significant turnover in the lead generation departments (Marketing and Business Development). The data does not specify whether the terminations are occurring at the leadership level or among their reports. If leadership is affected, it may be necessary to investigate whether the messaging for brand awareness and customer base targeting remains aligned. Frequent turnover in leadership could lead to new leaders wanting to leave their mark on the company's growth strategy, potentially disrupting the consistency of our brand image presented to customers.
+2. Average Employee Tenure
+•	Tenure distribution across departments is an average of 8 years.
+3. Employee Change Over Time (2000–2020)
+•	Overall employee change rate remained between 85%–95% over the two decades.
+•	Minor peaks correlate with broader economic events in the 2020 pandemic period.
+o	This may suggest that the company was able to weather or gain traction in its industry. Such as more people consuming streaming services or needing home necessities. Alos, the ability to switch over to remote work.
+4. Termination Rate by State
+•	Wisconsin, Indiana, and Ohio report the highest state-level termination rates.
+o	Wisconsin and Indiana have similar termination rates to Ohio, even though less employees are stationed there. 
+•	Regional differences could be influenced by local labor market conditions, cost of living, and industry competition.
+5. Termination Rate by Race
+•	Native Hawaiian or Other Pacific Islander employees experience the highest termination rates (~13.6%) even with a lower number of employees that identify as such.
+•	This highlights the need for deeper analysis into whether cultural, structural, or systemic factors influence employee separations across demographics.
+Recommendations
+1.	Department-Specific Retention Plans
+o	Focus retention efforts on high-risk departments like Auditing, and Legal.
+o	Conduct exit interviews and stay interviews to gather actionable feedback.
+2.	Regional Strategies
+o	Review HR strategies and compensation packages in high-turnover states to remain competitive.
+3.	Diversity and Inclusion Initiatives
+o	Investigate termination drivers among higher-risk racial groups.
+4.	Monitor Trends Post-2020
+o	Pay close attention to workforce trends beyond 2020 to capture the lasting impacts of remote work and shifting employee expectations.
+Conclusion
+While the organization maintains overall stability, specific departments, states, and demographic groups show higher vulnerability to employee turnover. Proactive, HR strategies recommended above can significantly improve retention, reduce hiring costs, and enhance organizational health over the coming years.
+
+
